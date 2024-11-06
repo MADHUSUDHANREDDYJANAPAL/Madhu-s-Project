@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Sign Up</h2>
+    <form action="SignUpServlet" method="post">
+        Username: <input type="text" name="username" required><br>
+        Password: <input type="password" name="password" required><br>
+        <input type="hidden" name="role" value="Employee">
+        <input type="submit" value="Sign Up">
+    </form>
+    <a href="login.jsp">Already have an account? Log in</a>
+</body>
+</html>
